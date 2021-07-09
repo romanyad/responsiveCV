@@ -114,13 +114,13 @@ End of Async Drift Code -->
     
   </header>
 
-  <!--
+  
   <section class="parallex">
-    <img class="parallex_img"src="bg.jpg" alt="" id="bg">
-    <img class="parallex_img" src="moon.png" alt="" id="moon">
-    <img class="parallex_img" src="mountain.png" alt="" id="mountain">
-    <img class="parallex_img" src="road.png" alt="" id="road">
-    <h2 class="parallex_text"id="para_text">Moon Light</h2>
+<img src="bg.jpg" alt="" id="bg" class="responsive">
+    <img src="moon.png" alt="" id="moon"  class="responsive">
+    <img src="mountain.png" alt="" id="mountain"  class="responsive">
+    <img src="road.png" alt="" id="road"  class="responsive">
+  <!-- IDEA:  <h2 id="text" class="responsive">Moon Light</h2>  -->
 
   </section>
 
@@ -135,7 +135,7 @@ End of Async Drift Code -->
 window.addEventListener('scroll', function(){
   var value = window.scrollY;
 
-  bg.style.top =value * 0.5 +'px';
+  bg.style.top =value * 0.1 +'px';
   moon.style.left =-value * 0.5 +'px';
   mountain.style.top =-value * 0.15 +'px';
   road.style.top =value * 0.15 +'px';
@@ -144,7 +144,7 @@ window.addEventListener('scroll', function(){
 </script>
 
 
--->
+
 
 
   <!--==================== MAIN ====================-->
