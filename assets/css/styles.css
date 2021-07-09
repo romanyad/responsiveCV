@@ -26,14 +26,7 @@
   pointer-events: none;
 }
 
-
-.parallex_text{
-  position: relative;
-  color: #fff;
-  font-size: 10em;
-  z-index: 1;
-}
-.responsive{
+.parallex{
   width: 100%;
   
 }
