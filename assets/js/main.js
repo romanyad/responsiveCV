@@ -221,3 +221,15 @@ themeButton.addEventListener('click', () => {
 /*==================== random color change  ====================*/
 
 document.documentElement.style.setProperty('--hue-color',  Math.random() * 360);
+
+/*==================== typing text animation script ====================*/
+
+
+    var typed = new Typed(".typing", {
+        strings: ["Frontend Developer", "Ui/Ux Designer","Backend Developer",],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop:true
+
+    });
+
