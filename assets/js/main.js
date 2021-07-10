@@ -217,3 +217,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== random color change  ====================*/
+
+document.documentElement.style.setProperty('--hue-color',  Math.random() * 360);
